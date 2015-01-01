@@ -1,20 +1,45 @@
 <form action="add.php" method="post">
-    <label>Full Name</label>
+   <label>Full Name</label>
     <input type="text" name="fullname">
     <br>
-    <label>Hobby</label>
+    <label>Hobby</label><br>
+    <input type="checkbox" name="hobby_reading" value="reading" />reading<br />
+    <input type="checkbox" name="hobby_travel" value="traveling" />traveling<br />
+    <input type="checkbox" name="hobby_movie" value="movie" />Movie<br />
+    <input type="checkbox" name="hobby_cric" value="cricket" />traveling<br />
+    <br>-->
+    <label>Favourite Food</label><br>
+    <input type="checkbox" name="food[]" value="fish" />Fish<br />
+    <input type="checkbox" name="food[]" value="meat" />meat<br />
+    <input type="checkbox" name="food[]" value="vagetables" />Vagetables<br />
+    <input type="checkbox" name="food[]" value="other" />others<br />
     <br>
-    <input type="checkbox" name="hobby[]" value="reading" />reading<br />
-    <input type="checkbox" name="hobby[]" value="traveling" />traveling<br />
-    <input type="checkbox" name="hobby[]" value="movie" />traveling<br />
-    <input type="checkbox" name="hobby[]" value="cricket" />traveling<br />
-    <br>
-    <select multiple="multiple" name="preferredjob">
+   <label>job location</label><br>
+    <select multiple="multiple" name="cities[]">
+        <option value="anywhere[]">Anywhere</option>
         <option value="dhaka">Dhaka</option>
         <option value="chittagong">Chitagong</option>
         <option value="rajshahi">Rajshahi</option>
-        <option value="chittagong">Sylhet</option>
-        <option value="chittagong">Khulna</option>
+        <option value="sylhet">Sylhet</option>
+        <option value="comilla">Comilla</option>
+        <option value="feni">Feni</option>
+        <option value="chandpur">Chandpur</option>
+        <option value="b-baria">B-baria</option>
+        <option value="kishorgonj">Kishorgonj</option>
+        <option value="munshigonj">Munshigonj</option>
+        <option value="jessore">Jessore</option>
+        <option value="cox'sbazar">Cox's Bazar</option>
+        <option value="luxmipur">luxmipur</option>
+        <option value="noakhali">Noakhali</option>
+        <option value="bandorban">bandorban</option>
+        <option value="rangamati">Rangamati</option>
+        <option value="khagrachori">khagrachori</option>
+        <option value="mymensingh">mymensingh</option>
+        <option value="hobigonj">hobigonj</option>
+        <option value="moulovibazar">Moulovibazar</option>
+        <option value="barisal">Barisal</option>
+
+
     </select>
     <br>
     <input type="submit" value="Submit">Submit</form>
