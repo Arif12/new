@@ -1,0 +1,54 @@
+Class- 05.01.2015
+
+PHPi_Foundations_participant_Guide_v6.pdf
+
+1. what is the difference between compiler and interpret language?
+2. Translation process.
+3. Syntax.
+4. Flowchart: diagram draw tool.
+5.  PHP coding style guide. Start from PSR-2, (Next exam);
+6. What is web page?
+7. Why we write html code in php file?
+8. API, XML, Web service.
+9. Variable interpolation.
+10. Why use <br> instead of \n? (Home work).
+11. Run and check php info.
+12. syntax and spaces.
+13. Type casting and type juggling.
+14. Get type and set type.
+15. increment and decrement operator.(unary operator) + 4 questions.
+ ?= ternary operator.  
+
+
+q-1
+
+$a=2
+echo $a++
+echo --$a
+
+echo $a. PHP_EOL;
+$a=4
+$b=2
+
+echo ++$a * ($a++ +  --$a);
+
+
+
+Q2
+$a='007';
+$b= '02';
+echo $a*$b. “\n”;
+ 
+$a='007';
+$b= '02';
+
+echo $a+$b
+
+
+
+
+
+17. Variables: variable is a placeholder to contain information.
+18. Define variable before using.
+19. Constant variable 2 questions.
+20.  
